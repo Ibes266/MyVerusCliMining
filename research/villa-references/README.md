@@ -3,6 +3,8 @@
 Pulled 2026-11-10. All six are by @designlink.ae (UAE architecture firm, tag #DLdesigns).
 Areas are the user's notes; captions don't state areas. Images are 3D renders, not built photos.
 
+Files: `images/` = one sheet per reel, 12 evenly spaced frames (read left→right, top→bottom). `captions.md` = designer's full English captions. Videos are not in the repo (see bundle).
+
 ## Summary
 
 | Area | Project | Location | Plot / layout idea | Key features | Posted | Likes/comments | Link |
@@ -13,6 +15,16 @@ Areas are the user's notes; captions don't state areas. Images are 3D renders, n
 | ? | not pulled | – | – | – | – | – | instagram.com/reel/DKHo4MFpAla |
 | 550 m² | Nexus (Al-Maazmi villa) | Al Reeman, Abu Dhabi | Corner plot; house at back, faces front to catch cooling wind; large front family garden | Tall framed entrance; cypress trees; long street privacy screen; open plan with clear sight lines; wind-flow and floor-link 3D diagrams | 2024-09-15 | 43/5 | instagram.com/reel/C_8Gk4Kye5X |
 | 600 m² | Eliorin (sun + rain; Al Khazraji villa) | Riyadh City, Abu Dhabi | Open indoor–outdoor connection; large open gardens | Rain-like vertical rod screens; inner courtyard with tree; wood slats + grey stone; minimal interiors | 2025-04-10 | 3/0 | instagram.com/reel/DIRLbMVJWWv |
+
+## Visuals
+### 360 m² Misaki
+![Misaki](images/360m2-misaki.jpg)
+### 460 m² The Cove
+![The Cove](images/460m2-cove.jpg)
+### 550 m² Nexus
+![Nexus](images/550m2-nexus.jpg)
+### 600 m² Eliorin
+![Eliorin](images/600m2-eliorin.jpg)
 
 ## Common patterns
 - Each project is built on one named idea, used in its name, logo and caption (which opens with an architect's quote).
@@ -29,4 +41,4 @@ Areas are the user's notes; captions don't state areas. Images are 3D renders, n
 ## How pulling works here
 - `yt-dlp -J <url>` gives caption + stats; `yt-dlp -o ID.%(ext)s <url>` downloads the video. Logged-out requests often fail at random; retry with ~15–30 s gaps.
 - Cloud environment "MyVerusCliMining" allows: www.instagram.com, i.instagram.com, scontent.cdninstagram.com, scontent-ord5-1/-2.cdninstagram.com. Other regional video servers would need adding.
-- Downloaded videos were in the session scratchpad and are not kept.
+- Videos (MP4, 720×1280, with audio, ~29 MB total) were shared as a zip bundle, not committed.
