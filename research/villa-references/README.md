@@ -1,6 +1,6 @@
-# Villa design references (Instagram)
+# Villa design references
 
-Two studios. All images are 3D renders, not built photos. Areas: designlink areas are the user's notes; Khatib areas are from the captions.
+Three studios. Studios 1–2 (Instagram) are 3D renders; studio 3 is a built house. Areas: designlink areas are the user's notes; Khatib areas are from the captions.
 Files: `images/<studio>/` = one sheet per post (photos in order, or 12 evenly spaced video frames; read left→right, top→bottom). `captions.md` = designers' English captions. Full-size images and videos are in the zip bundles, not the repo.
 Likes: Instagram often hides like counts from logged-out viewers; a count of 3 is very likely a placeholder, so ignore it.
 
@@ -52,6 +52,18 @@ Patterns: Omani/Gulf context; cream plaster + travertine/Omani stone + warm wood
 ![Stone arch chalet](images/khatib/stone-arch-chalet.jpg)
 ![Nature interior](images/khatib/nature-interior.jpg)
 
+## Studio 3: Khammash Architects (khammash.com, Amman, Jordan) — pulled 2026-11-12
+
+| Area | Project | Location | Type | What it shows | Year | Link |
+|---|---|---|---|---|---|---|
+| not stated | Fakhreddin House | Dabouq, Amman, Jordan | Built house, real photos (not renders) | Beige limestone cladding in large panels; deep cantilevered stone-clad roof over a wide timber deck; floor-to-ceiling sliding glass; cypress trees along a garden wall; vertical stone louvres; oak cantilevered stair with steel rail under a skylight | 2012 | khammash.com/projects/fakhreddin-house |
+
+Only 2 full photos exist on the page (2000×955) plus a small thumbnail. The site's Construction, Drawings and Sketches tabs are empty for this project, and its PDF brief has no area or text.
+
+![Deck and canopy](images/khammash/fakhreddin_02.jpg)
+![Stair](images/khammash/fakhreddin_03.jpg)
+![Façade (thumbnail)](images/khammash/fakhreddin_00_thumb.jpg)
+
 ## How pulling works here
 - `yt-dlp --ignore-no-formats-error -J <url>` gives caption, stats and media links (photo posts too); videos via `yt-dlp -o ID.%(ext)s <url>`. For photos, the last listed thumbnail is the full uncropped image. Logged-out requests fail at random; retry with ~10–30 s gaps.
-- Cloud environment "MyVerusCliMining" allows: www.instagram.com, i.instagram.com, scontent.cdninstagram.com, scontent-ord5-1/-2.cdninstagram.com.
+- Cloud environment "MyVerusCliMining" allows: www.instagram.com, i.instagram.com, scontent.cdninstagram.com, scontent-ord5-1/-2.cdninstagram.com, www.khammash.com, khammash.com.
