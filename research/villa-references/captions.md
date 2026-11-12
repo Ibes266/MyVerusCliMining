@@ -1,5 +1,7 @@
 # Designer captions (English part only)
 
+# Studio 1: designlink
+
 ## 360 m² Misaki
 "Architecture is supposed to complete nature. Great architecture makes nature more beautiful,  it gives it power" -Claudio Silvestrin-. 
 Misaki: (in Japanese) means "A Beautiful Bloom". 
@@ -44,4 +46,50 @@ Enveloped in light structure shade that mimics the soft pattern of raindrops, of
 Location: Riyad City - Abu Dhabi - UAE 
 #DLdesigns 
 
+
+
+# Studio 2: Mohammad Khatib studio (phone numbers and hashtags removed)
+
+## DfXa72rjElK
+Where architectural simplicity meets timeless elegance. ✨
+New design | Oman , Muscat
+Villa | 400 SQM
+
+## DfKbeAQSTHQ
+Daylight VS night light ✨
+
+## De6-vGUjMDz
+From Vision to Reality ✨
+Al Yaqoodan Villa | Muscat, Oman
+Architecture | Interior | Landscape
+
+## Dd_pmkHjCXA
+The True Meaning of “Pure Nature” 🌿✨
+New Design | Modern style 
+Location: 📍Saudi Arabia
+
+## DdbmcPZDNQ8
+The language of contemporary luxury ✨
+New design | Oman , Muscat
+Style | Modern
+
+## DdWt-83tFo6
+One of our favorite design elements 🌿
+Planted boxes that bring nature into every space.
+
+## Dc6SXsyNwPo
+Project name | Villa Dawood ✨
+New design | Oman , Muscat
+Villa | 320 SQM
+
+## DcOnxk5jKnd
+We Design The Way You Live ✨
+New design | Oman , Sur
+Villa | 400 SQM
+
+## DZc5gCUDJDD
+A contemporary chalet facade where organic curves, natural stone, and refined details come together to create a timeless architectural statement. ✨
+
+## DUVgswMjNVE
+Inspired by nature, Designed for calm 🤩🍃.
 
