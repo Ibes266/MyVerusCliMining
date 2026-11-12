@@ -1,6 +1,6 @@
 # Villa design references
 
-Three studios. Studios 1–2 (Instagram) are 3D renders; studio 3 is a built house. Areas: designlink areas are the user's notes; Khatib areas are from the captions.
+Three studios. Studios 1–2 (Instagram) are 3D renders; studio 3 shows built houses (real photos). Areas: designlink areas are the user's notes; Khatib areas are from the captions.
 Files: `images/<studio>/` = one sheet per post (photos in order, or 12 evenly spaced video frames; read left→right, top→bottom). `captions.md` = designers' English captions. Full-size images and videos are in the zip bundles, not the repo.
 Likes: Instagram often hides like counts from logged-out viewers; a count of 3 is very likely a placeholder, so ignore it.
 
@@ -57,12 +57,26 @@ Patterns: Omani/Gulf context; cream plaster + travertine/Omani stone + warm wood
 | Area | Project | Location | Type | What it shows | Year | Link |
 |---|---|---|---|---|---|---|
 | not stated | Fakhreddin House | Dabouq, Amman, Jordan | Built house, real photos (not renders) | Beige limestone cladding in large panels; deep cantilevered stone-clad roof over a wide timber deck; floor-to-ceiling sliding glass; cypress trees along a garden wall; vertical stone louvres; oak cantilevered stair with steel rail under a skylight | 2012 | khammash.com/projects/fakhreddin-house |
+| not stated | Rifai House | New Badr, Amman | 3 photos | Traditional Levantine style: rough-cut local stone, arched loggias with cross vaults, olive tree at a paved entry court, bougainvillea and climbers, lawn and pool in front of the arches | 2007 | khammash.com/projects/rifai-house |
+| not stated | Nuqul House | Abdoun, Amman | 2 photos | Large house in rusticated (rock-faced) limestone, stone arched gateway with wooden gates, rows of cypress, low flat-roofed volumes stepping back | 1996 | khammash.com/projects/nuqul-house |
+| not stated | Bahrani House | Dabouq, Amman | 1 photo (two views) | Modern stacked limestone cubes with sawn-stone bands, deep-set windows, stone shelf details, planted front garden | 2006 | khammash.com/projects/bahrani-house |
+| not stated | Pella House (architect's own house) | Pella, Jordan | 3 photos + full text | 3-storey house hugging a steep slope with no levelling of the ground; ceilings only 2.2 m to keep it small in the landscape; built by hand with no machinery on site (nearest vehicle 60 m away); precast blocks, mud plaster outside, white cement + lime inside; sits on a cave that supplied the materials. Warm earthy interior studio | 1994 | khammash.com/projects/pella-house |
 
-Only 2 full photos exist on the page (2000×955) plus a small thumbnail. The site's Construction, Drawings and Sketches tabs are empty for this project, and its PDF brief has no area or text.
+All photos are real (built houses), full size 2000×955, plus small 246×246 thumbnails. On every project the site's Construction, Drawings and Sketches tabs are empty, and the PDF briefs leave Area blank. Only Pella House has a written description.
+Patterns: local limestone used in very different ways (sawn modern cubes, rock-faced rustic, rough rubble with arches, mud plaster); cypress and olive trees; arches and vaulted loggias; houses fitted to the land.
 
 ![Deck and canopy](images/khammash/fakhreddin_02.jpg)
 ![Stair](images/khammash/fakhreddin_03.jpg)
 ![Façade (thumbnail)](images/khammash/fakhreddin_00_thumb.jpg)
+![Rifai 1](images/khammash/rifai_01.jpg)
+![Rifai 2](images/khammash/rifai_02.jpg)
+![Rifai 3](images/khammash/rifai_03.jpg)
+![Nuqul 1](images/khammash/nuqul_01.jpg)
+![Nuqul 2](images/khammash/nuqul_02.jpg)
+![Bahrani](images/khammash/bahrani_01.jpg)
+![Pella 1](images/khammash/pellahouse_01_ammar.jpg)
+![Pella 2](images/khammash/pellahouse_02_ammar.jpg)
+![Pella 3 interior](images/khammash/pellahouse_03_ammar.jpg)
 
 ## How pulling works here
 - `yt-dlp --ignore-no-formats-error -J <url>` gives caption, stats and media links (photo posts too); videos via `yt-dlp -o ID.%(ext)s <url>`. For photos, the last listed thumbnail is the full uncropped image. Logged-out requests fail at random; retry with ~10–30 s gaps.
