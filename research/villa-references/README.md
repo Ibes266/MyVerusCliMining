@@ -1,6 +1,6 @@
 # Villa design references
 
-Three studios. Studios 1–2 (Instagram) are 3D renders; studio 3 shows built houses (real photos). Areas: designlink areas are the user's notes; Khatib areas are from the captions.
+Four studios. Studios 1, 2 and 4 (Instagram) are 3D renders; studio 3 shows built houses (real photos). Areas: designlink areas are the user's notes; Khatib areas are from the captions.
 Files: `images/<studio>/` = one sheet per post (photos in order, or 12 evenly spaced video frames; read left→right, top→bottom). `captions.md` = designers' English captions. Full-size images and videos are in the zip bundles, not the repo.
 Likes: Instagram often hides like counts from logged-out viewers; a count of 3 is very likely a placeholder, so ignore it.
 
@@ -78,6 +78,40 @@ Patterns: local limestone used in very different ways (sawn modern cubes, rock-f
 ![Pella 2](images/khammash/pellahouse_02_ammar.jpg)
 ![Pella 3 interior](images/khammash/pellahouse_03_ammar.jpg)
 
+## Studio 4: Moqama مقامة (Kuwait; @diar.moqama company account, @moqama.kw) — pulled 2026-11-14
+Architecture + interior design, all 3D renders except one site photo. Captions are in Arabic (summarised here). 12 posts, 82 photos, 2 reels. Their stated aim: spaces that belong to their place and people, keep local identity, meet modern life. Phone numbers are in captions; not copied here.
+
+| Area | Project | Location | Type | What it shows | Posted | Likes | Link |
+|---|---|---|---|---|---|---|---|
+| 400 m² | Residential (architecture only) | not stated | 7 images | Day/night façade; white curved wall with a big arch and rust-red screen; round perforated blocks; cactus garden with lit paths | 2024-03-07 | – | instagram.com/p/C4Nw7LfMDS- |
+| 400 m² | Built house, courtyard | not stated | 2 site photos | Real photos: bare block-work courtyard with arches and a square sky opening; caption quotes Hassan Fathy on the courtyard as an image of the cosmos | 2026-02-06 | 189 | instagram.com/p/DUbLYcfCJPr |
+| ? | Villa with courtyards | not stated | 9 images | Cream limestone and perforated screens, arched wood door, planted courtyards, water channel, bench seating, cars at the street | 2025-07-12 | 407 | instagram.com/p/DMBKH1qsKU7 |
+| ? | Latest villa | not stated | 10 images | Timber and stone massing with a brick screen; sunken majlis courtyard; garden and deck; shows family life in the renders | 2026-05-26 | – | instagram.com/p/DYz9rnOjDhq |
+| ? | Courtyard villa (reel 40 s) | not stated | Reel | Façade that hides what is behind it (old "veil" idea); recessed entrance for full privacy from the street; courtyard with lawn and deck revealed inside | 2026-04-15 | – | instagram.com/reel/DXKC1uDiG4I |
+| ? | First project in Bahrain (reel) | Bahrain | Reel | Brick façade with arched windows and plants; long arcade; pool courtyard between wings | 2026-07-05 | – | instagram.com/reel/DaakogMo70a |
+| ? | Al-Ahsa house | Al-Ahsa, Saudi Arabia | 10 images | Clay-brown villa; local limestone; palm-frond screens for shade; garden with pond and pergola. ~6 design options were made with the client, then merged | 2023-04-28 | – | instagram.com/p/CrlQyJ8MuRT |
+| ? | Chalet | Ras al Hadd, Oman | 9 images | Sand-coloured rounded forms, arches, pergolas, pool and lounge terraces | 2025-10-18 | – | instagram.com/p/DP9U6ApDEf_ |
+| ? | Chalet interior | Khiran, Kuwait | 10 images | Warm neutral bedrooms, hall, vanities, timber and light-line ceilings | 2026-05-01 | – | instagram.com/p/DXy6KckDG0n |
+| ? | Chalet interior (living) | Khiran, Kuwait | 7 images | Living room opening on a planted courtyard with fire pit; green and maroon furniture accents | 2026-04-22 | – | instagram.com/p/DXcRcrNCEgS |
+| ? | Salon interior | Kuwait | 10 images | Arched mirrors, round mosaic basin, pink/terracotta palette (not a house) | 2026-02-02 | 145 | instagram.com/p/DUQ7RCzjLhi |
+| 90 m² | Office interior | Kuwait City | 8 images | Travertine-toned reception, wood shelving, curved light-line; aims at comfort, function, beauty, flexibility (not a house) | 2025-03-15 | – | instagram.com/p/DHO6DdQIpnL |
+
+Patterns: strongest theme is the inner courtyard (privacy, climate, culture) and a plain street façade that opens inside; local stone, brick, perforated screens, palm-frond shading; they work across Kuwait, Saudi, Oman and Bahrain; wide range (villas, chalets, interiors, commercial). Posts include real people and family scenes. Their two most liked posts are courtyard villas.
+
+![Villa courtyard 407 likes](images/moqama/villa-courtyard-407likes.jpg)
+![Latest villa](images/moqama/villa-latest-sunken-majlis.jpg)
+![400 m2 day/night](images/moqama/400m2-day-night-facade.jpg)
+![Built courtyard](images/moqama/built-400m2-courtyard.jpg)
+![Al-Ahsa](images/moqama/alahsa-palm-shading.jpg)
+![Reel courtyard](images/moqama/reel-courtyard-privacy-facade.jpg)
+![Reel Bahrain](images/moqama/reel-bahrain-brick-courtyard.jpg)
+![Chalet Oman](images/moqama/chalet-ras-al-hadd-oman.jpg)
+![Chalet interiors](images/moqama/chalet-khiran-interiors.jpg)
+![Chalet living](images/moqama/chalet-khiran-living.jpg)
+![Salon](images/moqama/salon-interior.jpg)
+![Office](images/moqama/90m2-office-kuwait.jpg)
+
 ## How pulling works here
+- Instagram profile pages cannot be listed without a login; the user sends individual post links instead.
 - `yt-dlp --ignore-no-formats-error -J <url>` gives caption, stats and media links (photo posts too); videos via `yt-dlp -o ID.%(ext)s <url>`. For photos, the last listed thumbnail is the full uncropped image. Logged-out requests fail at random; retry with ~10–30 s gaps.
 - Cloud environment "MyVerusCliMining" allows: www.instagram.com, i.instagram.com, scontent.cdninstagram.com, scontent-ord5-1/-2.cdninstagram.com, www.khammash.com, khammash.com.
