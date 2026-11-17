@@ -1,7 +1,7 @@
 # Halal Investing pitch deck (Arabic) — all 15 slides
 
 Source: https://halal-investing-pitchdeck.netlify.app/ (captured 2026-11-17). Program 'برنامج احتراف الاستثمار الحلال' by Ali Al-Hamed.
-Each slide: English summary, then the original Arabic text exactly as shown. Screenshots of every slide are in `slides.pdf` (same order, 1 page each).
+Each slide: English summary, then the original Arabic text exactly as shown. Each slide as one page (picture + text) is in `halal-investing-slides.pdf`.
 Note: package slides blur the price behind 'click to reveal'; prices are in the text below. Marketing claims (profits, +40K people) are the seller's own and are not verified.
 
 ## Quick facts
